@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0; 
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .video-preview {
+    text-align: center;
+  }
+  
+  #download button { /* Targets the button directly within the download link */
+    background-color: #1B98E0;
+    border-color: #1B98E0; 
+}
+
+#stop { 
+    background-color: #FF715B;
+    border-color: #FF715B;
+  }
+
+  .btn-info { /* Targets all buttons with the 'btn-info' class */
+    background-color: #1EA896;
+    border-color: #1EA896;
+  }
+
+  .text-center {
+    text-align: center;
+  }
