@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen Recorder PRO</title> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+  <header>
+    <div class="container text-center">
+      <h1>Screen Recorder PRO</h1>
+    </div>
+  </header>
+
+  <main>  
+    <div class="container mt-3">
+      <div class="controls text-center"> 
+        <span>
+          <a id="download" style="display: none;">
+            <button type="button" class="btn btn-primary mb-4">Download</button>
+          </a>
+        </span>
+        <button type="button" class="btn btn-danger" id="stop" disabled>Stop</button>
+        <button type="button" onclick="recordAudio()" class="btn btn-info">Record Audio</button>
+        <button type="button" onclick="recordVideo()" class="btn btn-info">Record Video</button>
+        <button type="button" onclick="recordScreen()" class="btn btn-info">Record Screen</button>
+      </div>
+
+      <div class="video-preview">
+        <video autoplay height='480' width="640" muted></video>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="recorder.js"></script>
+</body>
+</html>
